@@ -1,0 +1,35 @@
+.stickyCol {
+    position: sticky;
+    top: 20rem;
+    z-index: 1;
+}
+.stepper{
+    padding: 2rem 0;
+    position: sticky;
+    top: 2rem;
+    z-index: 2;
+    Button.step {
+        background: transparent;
+        border: 0;
+        color: var(--bs-heading-color);
+        display: inline-flex;
+        .step-title {
+            padding-left: 1rem;
+        }
+        &.completed {
+            .step-title {
+                color: var(--bs-success);
+
+            }
+        }
+        &.active.completed {
+            .step-title {
+                font-weight: bold;
+                color: #00416b;
+            }
+        }
+        &:disabled {
+            opacity: 1;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+@import '~bootstrap/scss/bootstrap';
+
+@import './components/Banner/Banner.scss';
+@import './components/Templates/Form-Container.scss';
+@import './components/Stepper/Stepper.scss';
+@import './components/Nav/Nav.scss';
+@import './components/Card/Card.scss';
+@import './components/Table/Table.scss';
+
+.App {
+    margin-bottom: 2rem;
+}
+
+body{
+    font-family: "source-sans-pro", sans-serif;
+    color: #333;
+    padding-bottom: 4rem;
+}
+
+a {
+    color: #05857b;
+}
+
+//Form styling
+.formHeader {
+    margin-bottom: 1.5rem;
+    .formHeader-title {
+        color: #00416b;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}
+.form-field {
+    text-align: start;
+    margin-bottom: 1.5rem;
+    .form-field--Header {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #00416b;
+    }
+    .form-label {
+        font-weight: bold;
+        font-size: 1.125rem;
+    }
+}
+
